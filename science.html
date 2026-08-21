@@ -1,39 +1,43 @@
 <!DOCTYPE html>
     <html>
         <style>
-            li {
-                 list-style-type: none;
-                 margin: 0;
-                 padding: 0;
-                }
+           ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
 
-                ul {
-                    list-style-type: none;
-                     margin: 0;
-                     padding: 0;
-                    background-color: #cda6f1;
-                    display: flex;
-                    justify-content: center;
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+                #sci {
+                        font-size: 200px;
+                        color: #e99a3f;
+                        justify-content: center;
+                        display: flex;             
+                    }    
+                #sib {
+                        background-color: #fcc587;
                     }
-
-                ul li a {
-                        display: block;
-                        color: #12142e;
-                        padding: 20px 18px;
-                        text-decoration: none;
-                        }
-
-                        ul li a:hover {
-                        background-color: #d462ebda;
-                        }
-                li {
-                        font-size: 30px;
-                    }
-
 
 
         </style>
-        <body>
+        <body id="sib">
             <li><a href="math.html">Math</a></li>
                         <li><a href="science.html">Science</a></li>
                         <li><a href="Filipino.f">Filipino</a></li>
@@ -42,7 +46,7 @@
                         <li><a href="Mapeh.p">Mapeh</a></li>
                         <li><a href="TLE.t">TLE</a></li>
                         </ul>
-
+                        <h1 id="sci"> Science </h1>
 
 
 
